@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+ 
+.logo{
+    width: 115px;
+}
+
+.nav-item > ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+
+ 
+}
+.nav-item > ul > li{
+    padding: 10px; 
+    margin: 10px;
+    font-size: medium;
+
+}
+.res-card{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 500px;
+    background-color: #f0f0f0;
+}
+.res-card:hover{
+    border: 1px solid black;
+}
+
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 190px;
+    height: 50%;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.filter{
+    display: flex;
+}
+a:link{
+    text-decoration: none;
+}
